@@ -1,13 +1,15 @@
 
 import React from "react";
-import Head from "../components/Head";
+import Layout from "../components/Layout";
 
 const IndexPage = () => {
   return (
     <main>
-      <title>Home Page</title>
-      <Head/>
-      <h1>Home Page</h1>
+      <title>Main Page</title>
+
+      <Layout>
+        <h1>Main Page</h1>
+      </Layout>
     </main>
   );
 };
